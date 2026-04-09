@@ -8,9 +8,13 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Data
-data/raw/
-data/processed/
+# Project outputs
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
 
 # Env / local files
 .env
